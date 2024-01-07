@@ -1,0 +1,143 @@
+{
+    "ID": "610013476036760553",
+    "Name": "Confortevole appartamento a 6 minuti dal centro e parcheggio gratuito",
+    "City": "Tirana",
+    "latitude": 41.33104945825362,
+    "longitude": 19.827963262796402,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,99 (143)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "41Â â¬ a notte, originariamente 46Â â¬",
+        "discountedPrice": "41Â â¬",
+        "originalPrice": "46Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false,
+        "trailingContent": null
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "82Â â¬ in totale",
+        "price": "82Â â¬ in totale",
+        "trailingContent": null
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1805666306",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/91605ea2-968e-417b-9d1f-9d98faeb2f27.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 camera da letto"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1805667030",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/6bdf1dbc-82d7-438e-b345-3ef6e1f92958.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1,5 bagni (anche di servizio)"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1805675769",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/ae2a967d-6608-4f36-971c-0d9c5c6981e2.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Parcheggio gratuito",
+                    "Lavatrice"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1805675813",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/ed6088e5-fa8c-429a-af73-fdbb6406a0ab.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1805676031",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/814ae2e8-a01b-4e00-8ab6-95c62f344c2b.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1499478199",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-610013476036760553/original/02939e1d-59b9-4063-a289-d16d73f49b01.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        }
+    ]
+}

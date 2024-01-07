@@ -86,13 +86,13 @@ def parse_listing_data(json_string_):
     roomTypeCategory = listing ["roomTypeCategory"]
     room_rating = listing['avgRatingLocalized']
     pictures = listing['contextualPictures']
-    listofpicture = [pictures[0]['picture'], pictures[1]['picture'], pictures[2]['picture'], pictures[3]['picture'], pictures[4]['picture'], pictures[5]['picture']]
+    #listofpicture = [pictures[0]['picture'], pictures[1]['picture'], pictures[2]['picture'], pictures[3]['picture'], pictures[4]['picture'], pictures[5]['picture']]
  
 
     pricequote = data['pricingQuote']
 
-    pricenight = pricequote['structuredStayDisplayPrice']['primaryLine']['price']
-    totalprice = pricequote['structuredStayDisplayPrice']['secondaryLine']['price']
+    pricenight = pricequote['structuredStayDisplayPrice']['primaryLine']#['price']
+    totalprice = pricequote['structuredStayDisplayPrice']['secondaryLine']#['price']
     return {
         "ID": listing_id,
         "Name": listing_name,
@@ -104,32 +104,60 @@ def parse_listing_data(json_string_):
         "Room_Rating": room_rating,
         "Price_per_night" : pricenight,
         "total_price": totalprice,
-        "listofpicture": listofpicture
+        "listofpicture": pictures
 
     }
 
+def order_html(html_name):
+    # "1.html"
+    # Path to the HTML file saved by Scrapy
+    current_directory = os.getcwd()
+    file_path =  os.path.join(current_directory, 'airbnbscrapy', 'data', html_name)
 
-# Path to the HTML file saved by Scrapy
-current_directory = os.getcwd()
-file_path =  os.path.join(current_directory, 'airbnbscrapy', 'data','1.html')
 
+    # Extract and parse the JSON data
+    json_string = extract_json_from_html(file_path)
+    #listing_data = parse_listing_data(json_string)
+    all_listing_data = []
 
-# Extract and parse the JSON data
-json_string = extract_json_from_html(file_path)
-#listing_data = parse_listing_data(json_string)
-all_listing_data = []
+    #print(listing_data)
 
-#print(listing_data)
+    for i in range(  0, 17 ): #
+        try:
+            # Parse each JSON string
+            listing_data = parse_listing_data(json_string[i])
+            all_listing_data.append(listing_data)
+            
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON in one of the instances: {e}")
 
-for json_str in json_string:
-    try:
-        # Parse each JSON string
-        listing_data = parse_listing_data(json_str)
-        all_listing_data.append(listing_data)
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON in one of the instances: {e}")
+    # Print or process all_listing_data
+    print(all_listing_data)
 
-# Print or process all_listing_data
-print(all_listing_data)
+    return all_listing_data
 
 #
+def save_json_to_file(data, file_path):
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+def main():
+    current_directory = os.getcwd()
+    output_directory = os.path.join(current_directory, 'airbnbscrapy', 'output')
+
+    # Create output directory if it doesn't exist
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+
+    for i in range(1, 6):
+        file_name = f"{i}.html"
+        json_data = order_html(file_name)
+
+        # Save each listing data to a separate JSON file
+        for index, data in enumerate(json_data):
+            output_file = os.path.join(output_directory, f'listing_{i}_{index}.json')
+            save_json_to_file(data, output_file)
+
+if __name__ == "__main__":
+    main()

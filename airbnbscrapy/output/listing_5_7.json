@@ -1,0 +1,150 @@
+{
+    "ID": "50149430",
+    "Name": "Lemon House Tirana",
+    "City": "Tirana",
+    "latitude": 41.32572,
+    "longitude": 19.81288,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,88 (210)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "37Â â¬ a notte",
+        "price": "37Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false,
+        "trailingContent": null
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "73Â â¬ in totale",
+        "price": "73Â â¬ in totale",
+        "trailingContent": null
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1189918145",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/d3115e08-62e0-4788-b841-8c351ea8a552.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1189933725",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/9929e860-8810-4ab9-8350-a4fb90437f42.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 bagno"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1189918085",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/bbd2b09a-8824-48d5-8ac0-beda97d22565.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 letto matrimoniale grande"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1189918156",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/3d9bf55e-1553-46b8-8ad6-410dd7bbdb61.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1189935162",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/98621621-f96e-448c-bd45-d40749477f1d.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1189918157",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/64491ec3-53b8-4275-959a-3942ebe0cbcb.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        }
+    ]
+}

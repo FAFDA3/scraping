@@ -1,0 +1,142 @@
+{
+    "ID": "21158953",
+    "Name": "Central Old Town Tirana apt! 1m/walk from Blvd.",
+    "City": "Tirana",
+    "latitude": 41.32366,
+    "longitude": 19.81599,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,98 (47)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "50Â â¬ a notte, originariamente 56Â â¬",
+        "discountedPrice": "50Â â¬",
+        "originalPrice": "56Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false,
+        "trailingContent": null
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "100Â â¬ in totale",
+        "price": "100Â â¬ in totale",
+        "trailingContent": null
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1623938374",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/1fb0ca0f-25f3-4e07-931e-97260e246523.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "2 camere da letto"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1623955060",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/0f960838-fcef-43e4-ad22-e4292d893de0.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "2 bagni"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1623934488",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/b7ab1dca-db39-4792-aa90-0f520e2acd15.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1623949079",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/c49e5ee9-bed0-4ca3-b06e-2f9a1cb40764.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1623941110",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/279131f5-a5c6-4d09-8a23-2f886cf1b0d4.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1623929285",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-21158953/original/9b6c9a93-00f3-4d1a-986b-45e76e5f32cc.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        }
+    ]
+}

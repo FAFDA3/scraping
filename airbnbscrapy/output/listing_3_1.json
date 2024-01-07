@@ -1,0 +1,143 @@
+{
+    "ID": "744989826469483634",
+    "Name": "Blloku-Studio Apartment",
+    "City": "TiranÃ«",
+    "latitude": 41.319873458036405,
+    "longitude": 19.81690300628543,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,8 (56)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "35Â â¬ a notte, originariamente 39Â â¬",
+        "discountedPrice": "35Â â¬",
+        "originalPrice": "39Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false,
+        "trailingContent": null
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "70Â â¬ in totale",
+        "price": "70Â â¬ in totale",
+        "trailingContent": null
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1514222026",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/57904050-6891-40da-b317-9df28dfa156d.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1514222110",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/28d10e15-0d0d-4185-a054-96da99a06640.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 bagno"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1514222025",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/6b3cc389-aa55-404a-9db7-46777bc732df.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1514222047",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/0f853d01-a125-47c8-841c-6f842103972d.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 4,8 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1514222107",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/cf4eda63-f949-41d0-afee-a54c8e76303d.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1514222089",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744989826469483634/original/2efbb8a8-1773-4733-9372-ab3131a44180.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        }
+    ]
+}

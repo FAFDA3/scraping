@@ -1,0 +1,90 @@
+{
+    "ID": "950494591930153603",
+    "Name": "Elegante e centrale appartamento 1-BR",
+    "City": "Tirana",
+    "latitude": 41.31722,
+    "longitude": 19.80888,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "5,0 (8)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "39Â â¬ a notte",
+        "price": "39Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "77Â â¬ in totale",
+        "price": "77Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1732167570",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/19eff459-fb8f-442c-ae34-de4bcb6e5764.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1732167552",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/d7a2143a-7812-4b09-acca-47fc562d83dd.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1732165404",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/9338b421-648f-40a7-b49e-d3549c880b13.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto a 2 piazze"
+                ]
+            },
+            "id": "1732163033",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/560da2ea-d214-44e8-9241-b7d9174d0bf1.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1732163390",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/73b5d269-6036-4937-b1b0-7c968550567c.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1732620607",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-950494591930153603/original/0e7a7784-0395-429e-846c-e8a1b4563578.jpeg?im_w=720"
+        }
+    ]
+}

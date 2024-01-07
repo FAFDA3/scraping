@@ -1,0 +1,82 @@
+{
+    "ID": "19846695",
+    "Name": "Nuovo monolocale1 nel centro di Tirana",
+    "City": "TiranÃ«",
+    "latitude": 41.32875,
+    "longitude": 19.82548,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,9 (363)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "34Â â¬ a notte",
+        "price": "34Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "68Â â¬ in totale",
+        "price": "68Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "342498103",
+            "picture": "https://a0.muscache.com/im/pictures/5755999d-5815-4484-80d4-b7b4d5fd9187.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "Monolocale"
+                ]
+            },
+            "id": "342499719",
+            "picture": "https://a0.muscache.com/im/pictures/de17cbd7-d5ae-4c51-bd42-0cc12659271f.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "342499036",
+            "picture": "https://a0.muscache.com/im/pictures/ddac3377-a1e7-40ae-85c6-68edff6c2de1.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi"
+                ]
+            },
+            "id": "342499463",
+            "picture": "https://a0.muscache.com/im/pictures/6730b5ff-0bd5-4327-acd0-d81910184ec7.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "342500434",
+            "picture": "https://a0.muscache.com/im/pictures/3cf6bd7e-b510-4c03-98b7-b3af15c4c627.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "342500784",
+            "picture": "https://a0.muscache.com/im/pictures/c56c33a7-857e-4f52-b7fe-898d79b7c2b1.jpg?im_w=720"
+        }
+    ]
+}
