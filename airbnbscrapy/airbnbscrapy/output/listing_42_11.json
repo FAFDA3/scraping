@@ -1,0 +1,92 @@
+{
+    "ID": "952965160155649333",
+    "Name": "Appartamento Premium Central *Parcheggio privato gratuito *",
+    "City": "Tirana",
+    "latitude": 41.33445942604069,
+    "longitude": 19.818611857672103,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,98 (45)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "56Â â¬ a notte",
+        "price": "56Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "56Â â¬ in totale",
+        "price": "56Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1715742802",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/a610da28-fffd-4303-bb6e-1d8cf0b7d47e.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "2 letti",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1715742815",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/eaf389b3-4fb6-48b3-b042-835b4d59bc9c.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1715742833",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/5c64280e-ec1c-4d42-93ee-dbccde12b846.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto a 2 piazze",
+                    "1 divano letto"
+                ]
+            },
+            "id": "1715742860",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/75ac2fdb-ec87-4be0-a4d0-43a08153d37e.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Parcheggio gratuito",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1715742869",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/bc7c941a-df98-4c34-b20e-54092f92c559.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1715742879",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-952965160155649333/original/a3dc91f8-2951-4b3f-aac7-96c22d52e2cb.jpeg?im_w=720"
+        }
+    ]
+}

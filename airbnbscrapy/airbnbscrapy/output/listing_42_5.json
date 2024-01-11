@@ -1,0 +1,85 @@
+{
+    "ID": "744137928241839808",
+    "Name": "BLLOkU-Apartment Check-in 24 ore su 24",
+    "City": "TiranÃ«",
+    "latitude": 41.32056870816133,
+    "longitude": 19.816097580758292,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,95 (80)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "36Â â¬ a notte, originariamente 40Â â¬",
+        "discountedPrice": "36Â â¬",
+        "originalPrice": "40Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "36Â â¬ in totale",
+        "price": "36Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1513388399",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/29ddb9d9-2004-41dd-891f-82240358e327.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1513388301",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/87ec6cc4-49d6-49c0-847c-18a28f40852c.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1513388370",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/a95cc6ec-ba16-4cd9-af4c-199212857fb2.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1513388374",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/9a2b2b03-0273-4316-929e-f4c03ed1f423.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1513388385",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/93d03f7a-8b7e-427e-9011-4b18ae0e63df.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "1513388406",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-744137928241839808/original/45935c00-bddf-4168-805d-a910cca4cfa5.jpeg?im_w=720"
+        }
+    ]
+}

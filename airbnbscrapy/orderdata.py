@@ -112,7 +112,8 @@ def order_html(html_name):
     # "1.html"
     # Path to the HTML file saved by Scrapy
     current_directory = os.getcwd()
-    file_path =  os.path.join(current_directory, 'airbnbscrapy', 'data', html_name)
+    print(html_name)
+    file_path =  os.path.join(current_directory, 'data', html_name)
 
 
     # Extract and parse the JSON data
@@ -150,7 +151,7 @@ def main():
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    for i in range(1, 6):
+    for i in range(1, 480):
         file_name = f"{i}.html"
         json_data = order_html(file_name)
 

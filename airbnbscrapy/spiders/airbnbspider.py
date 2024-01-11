@@ -1,6 +1,9 @@
 import scrapy
 import os
 import json
+from datetime import datetime, timedelta
+
+
 
 class ExampleSpider(scrapy.Spider):
     name = 'example'
@@ -17,26 +20,92 @@ class ExampleSpider(scrapy.Spider):
                 # Add more fields as needed
             }
 
+def read_json(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)
+    
+
+
+def parse_data_(json_string_):
+
+    # Remove the leading and trailing single quotes
+    # Trim or clean your JSON string if necessary
+    # For example, if your string has leading and trailing single quotes, you can remove them:
+    if json_string_.startswith("'") and json_string_.endswith("'"):
+        json_string_ = json_string_[1:-1]
+
+    # Replace any problematic encoding in your string
+    # Example: Replace escaped unicode characters
+    json_string_ = json_string_.encode().decode('unicode_escape')
+
+    # Now, try to load it as a JSON object
+    try:
+        data = json.loads(json_string_)
+        print("JSON loaded successfully")
+
+        return json_string_ , data
+    except json.JSONDecodeError as e:
+        print("Error decoding JSON:", e)
 
 
 
 class FullPageSpider(scrapy.Spider):
     name = 'fullpage'
     counter = 0
-    start_urls = [
 
-        'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjowLCJ2ZXJzaW9uIjoxfQ%3D%3D',  # Replace with the URL you want to scrape
+    def init___():
+        current_directory = os.getcwd()
+        output_directory = os.path.join(current_directory, 'airbnbscrapy')
 
-        'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D',
+        # Path to the JSON file
+        json_info_path = os.path.join(output_directory,'info.json')
 
-        'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjozNiwidmVyc2lvbiI6MX0%3D',
+        # Load data from JSON
+        lko= read_json(json_info_path)
+        urls = []
 
-        'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo1NCwidmVyc2lvbiI6MX0%3D',
+        for j in range (len(lko['location'])):
+            for m in range (len(lko['nights'])):
+                for o in range (len(lko['starting_from'])):
+                    for y in range (len(lko['host']['adults'])):
 
-        'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo3MiwidmVyc2lvbiI6MX0%3D',
+                            # print (lko['location'][j])
+                            # print (lko['nights'][m])
+                            # print (lko['starting_from'][o])
+                            # print (lko['host']['adults'][y])
+
+                            current_date = datetime.now()
+                            #print(current_date)
+
+                            checkin =  current_date +  timedelta(days= lko['starting_from'][o]) 
+                            checkout = checkin +  timedelta(days= lko['nights'][m])
+                            checkin_f = checkin.strftime("%Y-%m-%d")
+                            checkout_f = checkout.strftime("%Y-%m-%d")
+                            url_ = 'https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D'
+                            urls.append(url_)
+                            #print('https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D')
+        return urls 
+    
 
 
-    ]
+
+    start_urls =  init___()
+    print(start_urls)
+    # [
+
+    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjowLCJ2ZXJzaW9uIjoxfQ%3D%3D',  # Replace with the URL you want to scrape
+
+    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D',
+
+
+    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjozNiwidmVyc2lvbiI6MX0%3D',
+
+    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo1NCwidmVyc2lvbiI6MX0%3D',
+
+    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo3MiwidmVyc2lvbiI6MX0%3D',
+
+
+    # ]
 
     # def parse(self, response):
     #     filename = 'page_content.html'
@@ -99,3 +168,40 @@ class FullPageSpider(scrapy.Spider):
             self.log(f'Saved file {filename}')
 
 
+
+
+
+    # def init___():
+    #     current_directory = os.getcwd()
+    #     output_directory = os.path.join(current_directory, 'airbnbscrapy')
+
+    #     # Path to the JSON file
+    #     json_info_path = os.path.join(output_directory,'info.json')
+
+    #     # Load data from JSON
+    #     lko= read_json(json_info_path)
+    #     urls = []
+
+    #     for j in range (len(lko['location'])):
+    #         for m in range (len(lko['nights'])):
+    #             for o in range (len(lko['starting_from'])):
+    #                 for y in range (len(lko['host']['adults'])):
+
+    #                         print (lko['location'][j])
+    #                         print (lko['nights'][m])
+    #                         print (lko['starting_from'][o])
+    #                         print (lko['host']['adults'][y])
+
+    #                         current_date = datetime.now()
+    #                         print(current_date)
+
+    #                         checkin =  current_date +  timedelta(days= lko['starting_from'][o]) 
+    #                         checkout = checkin +  timedelta(days= lko['nights'][m])
+    #                         checkin_f = checkin.strftime("%Y-%m-%d")
+    #                         checkout_f = checkout.strftime("%Y-%m-%d")
+    #                         url_ = 'https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D'
+    #                         urls.append(url_)
+    #                         print('https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D')
+    #     return urls 
+
+print("ciccio1")

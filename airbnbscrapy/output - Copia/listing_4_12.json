@@ -1,0 +1,90 @@
+{
+    "ID": "47449940",
+    "Name": "Camera Deluxe 22 Blloku Area",
+    "City": "TiranÃ«",
+    "latitude": 41.31829,
+    "longitude": 19.81704,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,82 (50)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "41Â â¬ a notte",
+        "price": "41Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "82Â â¬ in totale",
+        "price": "82Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1593441556",
+            "picture": "https://a0.muscache.com/im/pictures/81686b63-817d-4f61-a8d0-782a5d2c8f83.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1592530354",
+            "picture": "https://a0.muscache.com/im/pictures/ccc1bc5e-94b9-4c15-97bf-d95714f326bf.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1582360597",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-47449940/original/96fe23cb-161f-4e53-b9d9-0a0c0ad5e0b0.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto matrimoniale"
+                ]
+            },
+            "id": "1582360187",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-47449940/original/adde4eb5-184f-4255-a428-376aa1e2bd95.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1592531115",
+            "picture": "https://a0.muscache.com/im/pictures/dd62d8ff-6666-4f2d-b0df-3049e80d8448.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1592530077",
+            "picture": "https://a0.muscache.com/im/pictures/3982f200-bf98-4b92-9250-17d765608c16.jpg?im_w=720"
+        }
+    ]
+}

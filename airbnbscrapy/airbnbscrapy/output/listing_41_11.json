@@ -1,0 +1,83 @@
+{
+    "ID": "6859390",
+    "Name": "Camera confortevole con colazione",
+    "City": "Tirana",
+    "latitude": 41.32372,
+    "longitude": 19.80481,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "private_room",
+    "Room_Rating": "4,82 (78)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "20Â â¬ a notte",
+        "price": "20Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "20Â â¬ in totale",
+        "price": "20Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "48539878",
+            "picture": "https://a0.muscache.com/im/pictures/86787581/97f83502_original.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "48539879",
+            "picture": "https://a0.muscache.com/im/pictures/86787584/e1a5ec4b_original.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno privato"
+                ]
+            },
+            "id": "48539880",
+            "picture": "https://a0.muscache.com/im/pictures/86787590/8aa41838_original.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Lavatrice"
+                ]
+            },
+            "id": "48539881",
+            "picture": "https://a0.muscache.com/im/pictures/86787597/83501b19_original.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "48539882",
+            "picture": "https://a0.muscache.com/im/pictures/86787599/ec94981e_original.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "48539883",
+            "picture": "https://a0.muscache.com/im/pictures/86793807/a8409f8c_original.jpg?im_w=720"
+        }
+    ]
+}

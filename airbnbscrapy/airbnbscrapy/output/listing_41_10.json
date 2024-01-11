@@ -1,0 +1,92 @@
+{
+    "ID": "831108055354411097",
+    "Name": "Monolocale a Tirana",
+    "City": "Tirana",
+    "latitude": 41.31629289818131,
+    "longitude": 19.818576275671397,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "5,0 (60)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "46Â â¬ a notte, originariamente 62Â â¬",
+        "discountedPrice": "46Â â¬",
+        "originalPrice": "62Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "46Â â¬ in totale",
+        "price": "46Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1602639754",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/196bd363-333c-444c-afb2-50812361da73.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "2 letti",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1602639760",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/c06e560c-b8be-4802-bdbf-d53f65d48350.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1602639767",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/79da33e0-8e1e-492a-aa9a-b4054efde14c.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto matrimoniale",
+                    "1 divano letto"
+                ]
+            },
+            "id": "1602659409",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/77e683fa-8db6-486f-aa3f-0657827abc52.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1602639772",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/8f0541de-1948-4cb4-aabb-819c5e5488cb.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1591846368",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-831108055354411097/original/148ca3de-f848-479d-a412-f84b439fd7c7.jpeg?im_w=720"
+        }
+    ]
+}

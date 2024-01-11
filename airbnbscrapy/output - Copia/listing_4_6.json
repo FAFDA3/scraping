@@ -1,0 +1,91 @@
+{
+    "ID": "25304063",
+    "Name": "Camera Economica - Bagno privato, AC, Wi-Fi, Netflix",
+    "City": "TiranÃ«",
+    "latitude": 41.31751,
+    "longitude": 19.816,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "private_room",
+    "Room_Rating": "4,8 (141)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "32Â â¬ a notte",
+        "price": "32Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "64Â â¬ in totale",
+        "price": "64Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1694336571",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-25304063/original/27ae68dc-c0f4-4bd8-9df5-2c31fa73558f.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "2 letti",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1694336566",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-25304063/original/4949a415-2457-4e4b-837e-f427a33e5080.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno privato"
+                ]
+            },
+            "id": "745784569",
+            "picture": "https://a0.muscache.com/im/pictures/7147a6a8-fda4-4829-b5f0-2f8430aa7576.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto matrimoniale",
+                    "1 letto singolo"
+                ]
+            },
+            "id": "1694336567",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-25304063/original/597ac63f-0d30-4ca8-a040-39a55088ce18.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "745784663",
+            "picture": "https://a0.muscache.com/im/pictures/cef79b5c-5103-4ebc-a70e-9101198d6bf4.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,8 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1694336569",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-25304063/original/74945bc1-e0e6-42bd-995e-f17deee88e47.jpeg?im_w=720"
+        }
+    ]
+}

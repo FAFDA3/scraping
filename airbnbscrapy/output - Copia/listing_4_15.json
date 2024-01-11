@@ -1,0 +1,85 @@
+{
+    "ID": "749250458905081710",
+    "Name": "Accogliente studio",
+    "City": "Tirana",
+    "latitude": 41.31698433024929,
+    "longitude": 19.809558615088463,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,83 (52)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "38Â â¬ a notte",
+        "price": "38Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "75Â â¬ in totale",
+        "price": "75Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1555828117",
+            "picture": "https://a0.muscache.com/im/pictures/561ea490-42ed-4253-8f49-7bb8c98b34cd.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1555828666",
+            "picture": "https://a0.muscache.com/im/pictures/458e71a1-fc7f-484a-a0ab-e4fd94e2359c.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1517847808",
+            "picture": "https://a0.muscache.com/im/pictures/362e7026-f07b-4cf2-b480-d3bc0af87120.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Parcheggio gratuito",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1517848195",
+            "picture": "https://a0.muscache.com/im/pictures/c12b1825-a54c-494e-8ec0-a8fa599b7a11.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1555828166",
+            "picture": "https://a0.muscache.com/im/pictures/aa5d7e8c-6848-47b2-a5c2-b74dca1169ae.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "1555827710",
+            "picture": "https://a0.muscache.com/im/pictures/2a7934ca-5737-4ba2-9af8-baec088eb93b.jpg?im_w=720"
+        }
+    ]
+}

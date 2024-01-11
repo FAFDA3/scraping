@@ -1,0 +1,84 @@
+{
+    "ID": "559220687193158146",
+    "Name": "Taiwan Riverside Luxe",
+    "City": "Tirana",
+    "latitude": 41.32461,
+    "longitude": 19.81693,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,9 (62)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "34Â â¬ a notte",
+        "price": "34Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "68Â â¬ in totale",
+        "price": "68Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1337924270",
+            "picture": "https://a0.muscache.com/im/pictures/78bb6164-ef89-4b41-9e93-1c3087592a30.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1337924288",
+            "picture": "https://a0.muscache.com/im/pictures/cd84739b-e21e-4d29-9e68-47a51d74f057.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1337924292",
+            "picture": "https://a0.muscache.com/im/pictures/4438d802-6906-4df9-a123-1d1729b3e3bc.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1337924296",
+            "picture": "https://a0.muscache.com/im/pictures/bf6747af-9430-47c0-91dd-beaae9ca5fc2.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1337924291",
+            "picture": "https://a0.muscache.com/im/pictures/1a157e73-eac5-4149-82ce-064fb1e74ecf.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "1337924280",
+            "picture": "https://a0.muscache.com/im/pictures/b22cef8b-d055-4ca1-a9fb-fd66b76cc9cb.jpg?im_w=720"
+        }
+    ]
+}

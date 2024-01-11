@@ -1,0 +1,84 @@
+{
+    "ID": "715205515020809920",
+    "Name": "Elen House",
+    "City": "TiranÃ«",
+    "latitude": 41.32516,
+    "longitude": 19.81142,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,93 (41)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "35Â â¬ a notte",
+        "price": "35Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "70Â â¬ in totale",
+        "price": "70Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1489212418",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-715205515020809920/original/4c4e0f7e-ba4b-41fb-ad04-cbe2b2f48004.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1490311103",
+            "picture": "https://a0.muscache.com/im/pictures/f0fd57fd-aef6-4fd9-8051-c8432041158c.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1,5 bagni (anche di servizio)"
+                ]
+            },
+            "id": "1490312601",
+            "picture": "https://a0.muscache.com/im/pictures/23ce469a-922b-42e8-a72a-0ef3cb9e4002.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Self check-in",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1490311121",
+            "picture": "https://a0.muscache.com/im/pictures/5a01b900-be30-451f-9280-cc9ac6a5974f.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,8 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1490316705",
+            "picture": "https://a0.muscache.com/im/pictures/baf64b5b-ec53-43f6-881f-d95a01d6921c.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "1490316609",
+            "picture": "https://a0.muscache.com/im/pictures/3ec183ad-3267-4e76-a539-29f9479bcefe.jpg?im_w=720"
+        }
+    ]
+}

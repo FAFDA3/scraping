@@ -1,0 +1,88 @@
+{
+    "ID": "39390337",
+    "Name": "Confortevole e pulito, ottima posizione",
+    "City": "TiranÃ«",
+    "latitude": 41.31694,
+    "longitude": 19.81797,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,9 (143)",
+    "Price_per_night": {
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "26Â â¬ a notte",
+        "price": "26Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "26Â â¬ in totale",
+        "price": "26Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "964663029",
+            "picture": "https://a0.muscache.com/im/pictures/6a55fcca-5d41-4ef1-a8de-48aab902dc9d.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "2 letti",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "890185046",
+            "picture": "https://a0.muscache.com/im/pictures/584850de-5f5e-4740-9297-51753bdc8172.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "890185282",
+            "picture": "https://a0.muscache.com/im/pictures/56df2396-cd33-4418-929f-b27086d71e3b.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "2 letti singoli"
+                ]
+            },
+            "id": "964662796",
+            "picture": "https://a0.muscache.com/im/pictures/14743442-88ec-41bc-9dda-4b952dfcb325.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi"
+                ]
+            },
+            "id": "964662870",
+            "picture": "https://a0.muscache.com/im/pictures/695f2542-4cf8-4d69-908c-9303ee4b6d25.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "964663065",
+            "picture": "https://a0.muscache.com/im/pictures/3d4af7b2-3140-466e-99f0-822461cee0f4.jpg?im_w=720"
+        }
+    ]
+}

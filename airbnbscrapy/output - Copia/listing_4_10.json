@@ -1,0 +1,85 @@
+{
+    "ID": "896841330642413904",
+    "Name": "Tirana Main Apartment",
+    "City": "TiranÃ«",
+    "latitude": 41.329109046370384,
+    "longitude": 19.821968494714902,
+    "PDP_URL_Type": "ROOMS",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "5,0 (7)",
+    "Price_per_night": {
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "30Â â¬ a notte, originariamente 44Â â¬",
+        "discountedPrice": "30Â â¬",
+        "originalPrice": "44Â â¬",
+        "qualifier": "notte",
+        "shortQualifier": "notte",
+        "concatQualifierLeft": false
+    },
+    "total_price": {
+        "__typename": "BasicDisplayPriceLine",
+        "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "59Â â¬ in totale",
+        "price": "59Â â¬ in totale"
+    },
+    "listofpicture": [
+        {
+            "__typename": "ExplorePicture",
+            "id": "1671925077",
+            "picture": "https://a0.muscache.com/im/pictures/84179bf6-5eb0-490b-b4db-1bfde800b851.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 letto",
+                    "1 camera da letto"
+                ]
+            },
+            "id": "1696865082",
+            "picture": "https://a0.muscache.com/im/pictures/32347edc-e3ac-4815-b081-4700d9be923e.jpg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "1 bagno"
+                ]
+            },
+            "id": "1658013437",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-896841330642413904/original/911ae157-ead5-4506-ae50-3567a518a026.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Wi-fi",
+                    "Parcheggio gratuito",
+                    "Lavatrice"
+                ]
+            },
+            "id": "1664730650",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-896841330642413904/original/e35e15ce-b324-4129-900e-4387ec728b33.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ]
+            },
+            "id": "1658015566",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-896841330642413904/original/0377930d-647e-4d0d-a2cb-87f9295f2294.jpeg?im_w=720"
+        },
+        {
+            "__typename": "ExplorePicture",
+            "id": "1671924946",
+            "picture": "https://a0.muscache.com/im/pictures/57153e2a-45f9-44f5-b77f-32c950ebd329.jpg?im_w=720"
+        }
+    ]
+}
