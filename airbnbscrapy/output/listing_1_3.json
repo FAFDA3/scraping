@@ -1,18 +1,17 @@
 {
-    "ID": "46687013",
-    "Name": "Camera deluxe 01 Zona Blloku",
+    "ID": "896399857474433511",
+    "Name": "CozyFlat nel cuore di Tirana",
     "City": "TiranÃ«",
-    "latitude": 41.31874,
-    "longitude": 19.81581,
+    "latitude": 41.32458,
+    "longitude": 19.81383,
     "PDP_URL_Type": "ROOMS",
-    "Room_Type-Category": "private_room",
-    "Room_Rating": "4,84 (233)",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "5,0 (17)",
     "Price_per_night": {
-        "__typename": "DiscountedDisplayPriceLine",
-        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "42Â â¬ a notte, originariamente 50Â â¬",
-        "discountedPrice": "42Â â¬",
-        "originalPrice": "50Â â¬",
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "41Â â¬ a notte",
+        "price": "41Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -21,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "84Â â¬ in totale",
-        "price": "84Â â¬ in totale",
+        "accessibilityLabel": "41Â â¬ in totale",
+        "price": "41Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -30,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1102726320",
+            "id": "1734207249",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/eb6fc1fe-7894-410f-a8c7-14c7a894f51a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/82089c58-50ce-4c3b-806a-e29d33f5c594.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -46,16 +45,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
+                    "3 letti",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726292",
+            "id": "1787291441",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/5363e38b-03c3-47b1-a5a4-54cc6cdb384a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/a3753c3c-48e2-4c65-926a-748f5e499b7e.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -68,15 +67,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 bagno privato"
+                    "1 bagno"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726306",
+            "id": "1787291961",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/60ef4570-009d-4d13-b5fa-e2c41fe80145.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/7f0000a1-0e6f-4b63-a53b-f74906ef1066.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -89,15 +88,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto matrimoniale"
+                    "3 letti singoli"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726338",
+            "id": "1787292172",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/56414c9e-20bd-4687-971b-1294e88a9f74.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/de09865c-fd9f-4a00-8e37-c0c676ef158c.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -111,16 +110,15 @@
                 "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
-                    "Self check-in",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1118841567",
+            "id": "1787292042",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/1eae6978-d84d-40d6-8f72-f52708913b7a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/f01a6b80-b4b1-47f0-8ebc-21b668c28804.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -133,15 +131,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
+                    "Valutato 5 stelle su 5 per la pulizia"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726214",
+            "id": "1787292003",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/68f00664-ecc2-49fc-9cd1-6f8bc762c1ca.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/fdbb7cc5-8592-4a46-b426-d1ad4f36f985.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

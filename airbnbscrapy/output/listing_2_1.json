@@ -1,17 +1,18 @@
 {
-    "ID": "716012368706744415",
-    "Name": "Appartamento condiviso vicino al lago di Tirana",
-    "City": "TiranÃ«",
-    "latitude": 41.31622,
-    "longitude": 19.81674,
+    "ID": "870875368112315415",
+    "Name": "Rustic Home Tirana",
+    "City": "Tirana",
+    "latitude": 41.31771245714055,
+    "longitude": 19.813743144180297,
     "PDP_URL_Type": "ROOMS",
-    "Room_Type-Category": "private_room",
-    "Room_Rating": "5,0 (17)",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,96 (68)",
     "Price_per_night": {
-        "__typename": "QualifiedDisplayPriceLine",
-        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "24Â â¬ a notte",
-        "price": "24Â â¬",
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "53Â â¬ a notte, originariamente 62Â â¬",
+        "discountedPrice": "53Â â¬",
+        "originalPrice": "62Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -20,8 +21,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "47Â â¬ in totale",
-        "price": "47Â â¬ in totale",
+        "accessibilityLabel": "53Â â¬ in totale",
+        "price": "53Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -29,23 +30,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1498556776",
+            "id": "1651302961",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/990fc675-0028-4cf8-9870-76a95ea2c18d.jpg?im_w=720",
-            "previewEncodedPng": null,
-            "saturatedA11yDarkColor": null,
-            "scrimColor": null,
-            "xlPicture": null
-        },
-        {
-            "__typename": "ExplorePicture",
-            "caption": null,
-            "dominantSaturatedColor": null,
-            "id": "1489909842",
-            "largeRo": null,
-            "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/0e6c102d-36af-40a1-9b6c-c840b5e6dc11.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/0eba211e-87f0-493b-8b1b-b03b37b2a582.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -58,16 +46,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
+                    "2 letti",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1489909756",
+            "id": "1629316686",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/e008b172-4bf9-49c3-b715-a2f0cf7dce93.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/e40e3058-d6b3-4096-a3fc-4a28d5825013.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -80,15 +68,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 bagno condiviso"
+                    "1 bagno"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1489910710",
+            "id": "1651302975",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/b71c88b9-dc9f-4ee6-8e33-7e78bf633990.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/126155f7-cd9f-47b4-8238-a1ddbcf1407b.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -101,15 +89,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto a 2 piazze"
+                    "1 letto a 2 piazze",
+                    "1 divano letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1498556436",
+            "id": "1651302984",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/6236bfe7-c12d-43b5-a0cc-98b8867a9873.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/716e822b-9ba4-4fd0-a8ca-258e12a8a21d.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -123,15 +112,37 @@
                 "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
+                    "Self check-in",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1498556690",
+            "id": "1651302965",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/a550d0d3-cf34-406e-8322-3023eac8d24d.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/005fd6f7-4079-433b-b419-65a4343d1acb.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1629324411",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-870875368112315415/original/83b200f4-3148-4a59-b456-a914fc6853aa.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

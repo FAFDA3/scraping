@@ -1,18 +1,17 @@
 {
-    "ID": "46687013",
-    "Name": "Camera deluxe 01 Zona Blloku",
-    "City": "TiranÃ«",
-    "latitude": 41.31874,
-    "longitude": 19.81581,
+    "ID": "53049666",
+    "Name": "Birds Apartment A, Studio, near Blloku",
+    "City": "Tirana",
+    "latitude": 41.31929,
+    "longitude": 19.81217,
     "PDP_URL_Type": "ROOMS",
-    "Room_Type-Category": "private_room",
-    "Room_Rating": "4,84 (233)",
+    "Room_Type-Category": "entire_home",
+    "Room_Rating": "4,99 (178)",
     "Price_per_night": {
-        "__typename": "DiscountedDisplayPriceLine",
-        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "42Â â¬ a notte, originariamente 50Â â¬",
-        "discountedPrice": "42Â â¬",
-        "originalPrice": "50Â â¬",
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "61Â â¬ a notte",
+        "price": "61Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -21,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "84Â â¬ in totale",
-        "price": "84Â â¬ in totale",
+        "accessibilityLabel": "61Â â¬ in totale",
+        "price": "61Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -30,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1102726320",
+            "id": "1586605389",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/eb6fc1fe-7894-410f-a8c7-14c7a894f51a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/7a7c3824-fcfa-4083-91d7-42799222fb87.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -52,10 +51,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726292",
+            "id": "1586605705",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/5363e38b-03c3-47b1-a5a4-54cc6cdb384a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/b955a367-cf91-4567-8bda-014312a445eb.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -68,36 +67,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 bagno privato"
+                    "1 bagno"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726306",
+            "id": "1282420979",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/60ef4570-009d-4d13-b5fa-e2c41fe80145.jpg?im_w=720",
-            "previewEncodedPng": null,
-            "saturatedA11yDarkColor": null,
-            "scrimColor": null,
-            "xlPicture": null
-        },
-        {
-            "__typename": "ExplorePicture",
-            "caption": {
-                "__typename": "ExploreKickerContent",
-                "formattedMessages": null,
-                "kickerBadge": null,
-                "messages": [
-                    "1 letto matrimoniale"
-                ],
-                "textColor": null
-            },
-            "dominantSaturatedColor": null,
-            "id": "1102726338",
-            "largeRo": null,
-            "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/56414c9e-20bd-4687-971b-1294e88a9f74.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/605b0a24-41c2-47b6-b770-4cae1a88589c.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -117,10 +95,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1118841567",
+            "id": "1282298418",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/1eae6978-d84d-40d6-8f72-f52708913b7a.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/b71877e2-1679-49f6-9e60-9ef5a36a43be.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -133,15 +111,28 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
+                    "Valutato 5 stelle su 5 per la pulizia"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1102726214",
+            "id": "1276327538",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/68f00664-ecc2-49fc-9cd1-6f8bc762c1ca.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-53049666/original/b6647a53-7503-4091-8d01-c9c005e3c9a2.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1276308945",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-53049666/original/e316c898-01a2-4d16-a5c3-4feff41bd55d.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

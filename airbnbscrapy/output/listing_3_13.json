@@ -1,17 +1,17 @@
 {
-    "ID": "47531027",
-    "Name": "CASA RAINA, monolocale verde nel cuore di Blloku",
-    "City": "Tirana",
-    "latitude": 41.31967,
-    "longitude": 19.81411,
+    "ID": "722269338397490886",
+    "Name": "Appartamento elegante e alla moda * Parcheggio gratuito *",
+    "City": "TiranÃ«",
+    "latitude": 41.33278281930751,
+    "longitude": 19.820060804486275,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,89 (234)",
+    "Room_Rating": "4,93 (122)",
     "Price_per_night": {
         "__typename": "QualifiedDisplayPriceLine",
         "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "38Â â¬ a notte",
-        "price": "38Â â¬",
+        "accessibilityLabel": "55Â â¬ a notte",
+        "price": "55Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -20,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "76Â â¬ in totale",
-        "price": "76Â â¬ in totale",
+        "accessibilityLabel": "55Â â¬ in totale",
+        "price": "55Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -29,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1132718399",
+            "id": "1698930724",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/aec62bcf-e111-4a5b-b053-298a9bf7c66b.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/61b09d0b-7f3f-4f87-9e37-8f38aadaddd1.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -45,16 +45,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
+                    "2 letti",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1132718609",
+            "id": "1684763337",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/edc99262-49f2-42b5-b309-5ee6ba71f7c3.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/74a111ac-98e9-4585-bab6-fb2db017bb69.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -72,10 +72,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1132718737",
+            "id": "1684761710",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/71549641-10b1-4dad-8fb7-e5527c5941d5.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/136f065c-076e-4087-a7d8-6bd26683cdce.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -88,15 +88,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto a 2 piazze"
+                    "1 letto matrimoniale",
+                    "1 divano letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1132718887",
+            "id": "1684761094",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/2ff8b0ad-a8a2-428a-948f-52014ce11243.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/e8da487b-3c34-4171-9e6b-6589815aca09.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -111,15 +112,16 @@
                 "messages": [
                     "Wi-fi",
                     "Self check-in",
+                    "Parcheggio gratuito",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1132719004",
+            "id": "1684761405",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/f8d35b87-7871-4957-a50d-b36e41f7df7f.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/35d0abea-cf52-400e-be02-30edb2438ace.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -132,15 +134,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
+                    "Valutato 5 stelle su 5 per la pulizia"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1132720202",
+            "id": "1684757844",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/70c98396-78e3-4b59-aebd-8534bcc28d1f.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/9feee9e8-de5f-466c-ab2b-37829d666669.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

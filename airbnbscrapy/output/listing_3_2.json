@@ -1,17 +1,17 @@
 {
-    "ID": "770151532171267340",
-    "Name": "Accogliente duplex vicino alla zona di blloku",
+    "ID": "44562758",
+    "Name": "2V1 _ Blloku LS",
     "City": "Tirana",
-    "latitude": 41.31600954278705,
-    "longitude": 19.813621037295533,
+    "latitude": 41.31834,
+    "longitude": 19.81315,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,65 (68)",
+    "Room_Rating": "4,91 (104)",
     "Price_per_night": {
         "__typename": "QualifiedDisplayPriceLine",
         "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "26Â â¬ a notte",
-        "price": "26Â â¬",
+        "accessibilityLabel": "41Â â¬ a notte",
+        "price": "41Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -20,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "52Â â¬ in totale",
-        "price": "52Â â¬ in totale",
+        "accessibilityLabel": "41Â â¬ in totale",
+        "price": "41Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -29,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1544528676",
+            "id": "1048906389",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/6585f70e-4b8e-4e68-98d4-037ce9657877.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/a4a7fad1-1ca3-40b1-a43f-e610268b538b.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -45,16 +45,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
-                    "1 camera da letto"
+                    "3 letti",
+                    "2 camere da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1544528732",
+            "id": "1048905906",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/e5094931-9ce5-4fa5-9bc6-d7c02cf63a98.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/1c26535b-e8d2-4ac0-929d-ffb63082822e.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -72,10 +72,32 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1544528675",
+            "id": "1048906997",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/8496972b-5049-4d03-8a09-a82f53991b72.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/895086f7-1814-4966-85c0-ebad9d08189b.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "1 letto a 2 piazze",
+                    "2 letti singoli"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1048907142",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/b064caf5-239b-41d9-9f24-348863623bb1.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -95,10 +117,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1544538378",
+            "id": "1048907032",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/47942f06-5afb-4127-9375-08558ae27676.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/a6e125b3-5cf6-4259-ba04-c3f369db21ea.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -111,28 +133,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,6 stelle su 5 per la pulizia"
+                    "Valutato 4,9 stelle su 5 per la pulizia"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1544528861",
+            "id": "1048906935",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/8fca277a-71b5-4e19-bc09-33abfc9d83d8.jpeg?im_w=720",
-            "previewEncodedPng": null,
-            "saturatedA11yDarkColor": null,
-            "scrimColor": null,
-            "xlPicture": null
-        },
-        {
-            "__typename": "ExplorePicture",
-            "caption": null,
-            "dominantSaturatedColor": null,
-            "id": "1544528903",
-            "largeRo": null,
-            "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-770151532171267340/original/5fd113ac-dbde-46aa-8669-66aeeeb5e1c1.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/9552b81c-680a-4f9e-bef0-ff9b0737ca65.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

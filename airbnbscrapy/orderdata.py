@@ -1,17 +1,7 @@
 import json
 import os
 
-# def extract_json_from_html(file_path):
-#     with open(file_path, 'r', encoding='utf-8') as file:
-#         html_content = file.read()
 
-#         # Locate the JSON string in the HTML content
-#         start = html_content.find('{"__typename":"StaySearchResult","listing')
-#         end = html_content.find('},{"__typename":"StaySearchResult","listing', start) + 1
-#         json_string = html_content[start:end]
-       
-
-#         return json_string
     
 
 def extract_json_from_html(file_path):
@@ -113,7 +103,7 @@ def order_html(html_name):
     # Path to the HTML file saved by Scrapy
     current_directory = os.getcwd()
     print(html_name)
-    file_path =  os.path.join(current_directory, 'data', html_name)
+    file_path =  os.path.join(current_directory, 'airbnbscrapy','data', html_name)
 
 
     # Extract and parse the JSON data
@@ -144,21 +134,31 @@ def save_json_to_file(data, file_path):
 
 
 def main():
+    #1 run the scraper scrapy crawl fullpage
+    #2 orderdata
+    #3 loaddata
     current_directory = os.getcwd()
-    output_directory = os.path.join(current_directory, 'airbnbscrapy', 'output')
+    output_directory = os.path.join(current_directory,  'airbnbscrapy','output')
+    print(output_directory)
 
     # Create output directory if it doesn't exist
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    for i in range(1, 480):
+    for i in range(1, 481):
         file_name = f"{i}.html"
         json_data = order_html(file_name)
+        print(i)
 
         # Save each listing data to a separate JSON file
         for index, data in enumerate(json_data):
             output_file = os.path.join(output_directory, f'listing_{i}_{index}.json')
+            print(output_file)
             save_json_to_file(data, output_file)
+            print(i)
+            print(index)
+            print(data)
+            print(output_directory)
 
 if __name__ == "__main__":
     main()

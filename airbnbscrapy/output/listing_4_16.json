@@ -1,89 +1,152 @@
 {
-    "ID": "48987969",
-    "Name": "Casa di Mila",
+    "ID": "751911305494683733",
+    "Name": "Urban Nest on Boulevard",
     "City": "TiranÃ«",
-    "latitude": 41.32513,
-    "longitude": 19.83205,
+    "latitude": 41.33569,
+    "longitude": 19.815,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,95 (63)",
+    "Room_Rating": "4,94 (18)",
     "Price_per_night": {
-        "__typename": "QualifiedDisplayPriceLine",
-        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "38Â â¬ a notte",
-        "price": "38Â â¬",
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "45Â â¬ a notte, originariamente 49Â â¬",
+        "discountedPrice": "45Â â¬",
+        "originalPrice": "49Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
-        "concatQualifierLeft": false
+        "concatQualifierLeft": false,
+        "trailingContent": null
     },
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "75Â â¬ in totale",
-        "price": "75Â â¬ in totale"
+        "accessibilityLabel": "45Â â¬ in totale",
+        "price": "45Â â¬ in totale",
+        "trailingContent": null
     },
     "listofpicture": [
         {
             "__typename": "ExplorePicture",
-            "id": "1156532280",
-            "picture": "https://a0.muscache.com/im/pictures/746ddbb1-bcfc-4f2e-9eb6-468cb1b6c100.jpg?im_w=720"
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1520097678",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/589425ad-be60-4e04-96e6-1ee0f559f900.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
-                    "1 letto",
-                    "1 camera da letto"
-                ]
+                    "2 letti",
+                    "2 camere da letto"
+                ],
+                "textColor": null
             },
-            "id": "1156542942",
-            "picture": "https://a0.muscache.com/im/pictures/a6ad2e67-66da-47b7-b9c8-18d567e7cf31.jpg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1520091802",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/8ce8b536-5862-4d16-b2ec-cf51c4f26c49.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
                     "1 bagno"
-                ]
+                ],
+                "textColor": null
             },
-            "id": "1156543352",
-            "picture": "https://a0.muscache.com/im/pictures/f444fef8-a783-4e37-839a-a731589b0f9e.jpg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1520091733",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/0b152d6f-92c8-415b-b9c3-a169f897d4e5.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
-                    "1 letto matrimoniale grande"
-                ]
+                    "1 letto matrimoniale grande",
+                    "1 letto a due piazze piccolo"
+                ],
+                "textColor": null
             },
-            "id": "1156544008",
-            "picture": "https://a0.muscache.com/im/pictures/7b428285-310e-4c7e-b527-30fb0b0f0be9.jpg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1520091754",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/e2472b38-474a-468a-9122-5f07c70676e0.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
+                    "Self check-in",
                     "Lavatrice"
-                ]
+                ],
+                "textColor": null
             },
-            "id": "1156544898",
-            "picture": "https://a0.muscache.com/im/pictures/676f05db-e531-42f8-848b-4f7fcc26c226.jpg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1520091816",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/f5f737a2-1781-421d-b125-b53154ca7985.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
-                ]
+                    "Valutato 5 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
             },
-            "id": "1156545794",
-            "picture": "https://a0.muscache.com/im/pictures/bbc22d01-c324-4de1-8086-e6899cdc668e.jpg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1520091830",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-751911305494683733/original/e8b5a43f-9c5b-4ba0-9011-d73a09648e3c.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         }
     ]
 }

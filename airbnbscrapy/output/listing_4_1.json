@@ -1,85 +1,143 @@
 {
-    "ID": "1018148941565872146",
-    "Name": "La Mirage Suite 07",
+    "ID": "590456787481461957",
+    "Name": "Downtown Flat vicino al centro e al lago con check-in 24 ORE SU 24",
     "City": "Tirana",
-    "latitude": 41.319691416144835,
-    "longitude": 19.81491910046934,
+    "latitude": 41.32428,
+    "longitude": 19.82499,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "Nuovo",
+    "Room_Rating": "4,92 (78)",
     "Price_per_night": {
         "__typename": "DiscountedDisplayPriceLine",
         "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "54Â â¬ a notte, originariamente 65Â â¬",
-        "discountedPrice": "54Â â¬",
-        "originalPrice": "65Â â¬",
+        "accessibilityLabel": "46Â â¬ a notte, originariamente 60Â â¬",
+        "discountedPrice": "46Â â¬",
+        "originalPrice": "60Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
-        "concatQualifierLeft": false
+        "concatQualifierLeft": false,
+        "trailingContent": null
     },
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "108Â â¬ in totale",
-        "price": "108Â â¬ in totale"
+        "accessibilityLabel": "46Â â¬ in totale",
+        "price": "46Â â¬ in totale",
+        "trailingContent": null
     },
     "listofpicture": [
         {
             "__typename": "ExplorePicture",
-            "id": "1806570890",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/6c832529-d06f-4542-a37c-1959d9f1d152.jpeg?im_w=720"
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1378746764",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/2abdd1a7-924d-4931-98ab-ed97c9de2702.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
                     "1 letto",
                     "1 camera da letto"
-                ]
+                ],
+                "textColor": null
             },
-            "id": "1806570377",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/efd1f0c0-5ef7-45ab-928b-5bfe6cbd0c55.jpeg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1378746500",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/ec9d964e-2f48-4cea-8bb7-61d875c36073.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
                     "1 bagno"
-                ]
+                ],
+                "textColor": null
             },
-            "id": "1806570804",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/9cb645cd-5f45-4abf-8a45-28af6c71edf3.jpeg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1370510283",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/641d660b-cc9f-4559-9b96-0d2778a47701.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
             "caption": {
                 "__typename": "ExploreKickerContent",
-                "messages": [
-                    "1 letto matrimoniale grande"
-                ]
-            },
-            "id": "1806570353",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/bc895190-bbd3-41ff-ad73-dfbdfaba1b62.jpeg?im_w=720"
-        },
-        {
-            "__typename": "ExplorePicture",
-            "caption": {
-                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
                     "Self check-in",
                     "Lavatrice"
-                ]
+                ],
+                "textColor": null
             },
-            "id": "1806569668",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/106b1380-3648-4a6e-8b69-39fdb12248eb.jpeg?im_w=720"
+            "dominantSaturatedColor": null,
+            "id": "1378746874",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/daafadff-6cfd-4703-8248-484ac177d09f.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         },
         {
             "__typename": "ExplorePicture",
-            "id": "1806569740",
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-1018148941565872146/original/6728ff81-5ed1-412e-b57e-6bf662cc1bb5.jpeg?im_w=720"
+            "caption": {
+                "__typename": "ExploreKickerContent",
+                "formattedMessages": null,
+                "kickerBadge": null,
+                "messages": [
+                    "Valutato 4,9 stelle su 5 per la pulizia"
+                ],
+                "textColor": null
+            },
+            "dominantSaturatedColor": null,
+            "id": "1370510302",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/98901a60-5124-4035-b021-63833c83efbf.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1370510303",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/77824c2c-a72a-43e9-8b2f-e1c34d3125e8.jpg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
         }
     ]
 }

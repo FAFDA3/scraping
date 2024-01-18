@@ -1,17 +1,18 @@
 {
-    "ID": "973853440445119651",
-    "Name": "Cheap studio Tirana center",
-    "City": "Tirana",
-    "latitude": 41.324251918429546,
-    "longitude": 19.815961873263284,
+    "ID": "53917394",
+    "Name": "Pazari Terrace Bar:â¡ï¸goditi gli appartamenti in Albania",
+    "City": "TiranÃ«",
+    "latitude": 41.33101,
+    "longitude": 19.824997,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,62 (29)",
+    "Room_Rating": "4,91 (79)",
     "Price_per_night": {
-        "__typename": "QualifiedDisplayPriceLine",
-        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "31Â â¬ a notte",
-        "price": "31Â â¬",
+        "__typename": "DiscountedDisplayPriceLine",
+        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "55Â â¬ a notte, originariamente 67Â â¬",
+        "discountedPrice": "55Â â¬",
+        "originalPrice": "67Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -20,8 +21,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "62Â â¬ in totale",
-        "price": "62Â â¬ in totale",
+        "accessibilityLabel": "55Â â¬ in totale",
+        "price": "55Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -29,10 +30,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1734001717",
+            "id": "1307140017",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/a1a56948-7cc4-4f96-9db7-c7647a858dcf.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/c2236c6a-aead-469d-81cc-977170e94677.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -45,16 +46,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
+                    "2 letti",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1734001712",
+            "id": "1307139846",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/af691729-01e4-4f95-ab95-d712850a68cd.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/74957068-ad2c-46f3-b2c8-e9ffc76c7a98.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -72,10 +73,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1734001739",
+            "id": "1307140037",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/e1e25cda-c79b-475a-bc7e-116b15f42e1e.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/67938250-6d49-4114-8908-4bb8702aaa10.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -88,15 +89,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto matrimoniale"
+                    "1 letto a 2 piazze",
+                    "1 divano letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1734001705",
+            "id": "1307140025",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/be0ad7c6-3ae2-49d2-b627-cedb687c671c.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/5b0de2c2-4a67-44cd-b253-cfe72690515c.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -111,15 +113,16 @@
                 "messages": [
                     "Wi-fi",
                     "Self check-in",
+                    "Parcheggio gratuito",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1734001755",
+            "id": "1307140019",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/2a6bb97b-114e-4bf8-9a2c-e0585db96794.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/9c40c76b-718b-47fd-8718-9095827108b8.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -132,15 +135,15 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "Valutato 4,6 stelle su 5 per la pulizia"
+                    "Valutato 4,8 stelle su 5 per la pulizia"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1734001732",
+            "id": "1307139879",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-973853440445119651/original/6392e159-b49d-438d-8207-bf592509fba3.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/8507970c-6d25-4b4f-9bb5-e778e6a8eaeb.jpg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

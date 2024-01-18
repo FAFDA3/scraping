@@ -5,21 +5,6 @@ from datetime import datetime, timedelta
 
 
 
-class ExampleSpider(scrapy.Spider):
-    name = 'example'
-    allowed_domains = ['example.com']
-    start_urls = ['http://example.com/']
-
-    def parse(self, response):
-        # This is just a placeholder structure. You would need to inspect the actual
-        # web page to find the correct selectors for the data you want to extract.
-        for listing in response.css('div.listing'):
-            yield {
-                'title': listing.css('h2.title::text').get(),
-                'price': listing.css('span.price::text').get(),
-                # Add more fields as needed
-            }
-
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
@@ -55,7 +40,9 @@ class FullPageSpider(scrapy.Spider):
 
     def init___():
         current_directory = os.getcwd()
-        output_directory = os.path.join(current_directory, 'airbnbscrapy')
+        output_directory = os.path.join(current_directory,"airbnbscrapy")
+        input_data_directory = os.path.join(output_directory, 'inputdata')
+
 
         # Path to the JSON file
         json_info_path = os.path.join(output_directory,'info.json')
@@ -63,6 +50,15 @@ class FullPageSpider(scrapy.Spider):
         # Load data from JSON
         lko= read_json(json_info_path)
         urls = []
+        counter__ = 1
+
+
+        input_data_directory_ = os.path.join(current_directory, 'airbnbscrapy')
+        input_data_directory = os.path.join(input_data_directory_, 'inputdata')
+        if not os.path.exists(input_data_directory):
+            os.makedirs(input_data_directory)
+
+
 
         for j in range (len(lko['location'])):
             for m in range (len(lko['nights'])):
@@ -76,56 +72,43 @@ class FullPageSpider(scrapy.Spider):
 
                             current_date = datetime.now()
                             #print(current_date)
-
+                            adults = lko['host']['adults'][y]
                             checkin =  current_date +  timedelta(days= lko['starting_from'][o]) 
                             checkout = checkin +  timedelta(days= lko['nights'][m])
                             checkin_f = checkin.strftime("%Y-%m-%d")
                             checkout_f = checkout.strftime("%Y-%m-%d")
-                            url_ = 'https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D'
+                            url_ = 'https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(adults) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D'
+                            #print(url_)
                             urls.append(url_)
+                            print(url_)
                             #print('https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D')
+                                                # Create JSON data
+                            json_data = {
+                                'current_date': current_date.strftime("%Y-%m-%d %H:%M"),
+                                'checkin': checkin_f,
+                                'checkout': checkout_f,
+                                'adults': adults,
+                                'url': url_
+                            }
+                            print(json_data)
+
+                            # Save JSON data to file
+                            json_file_name = f"{counter__}.json"
+                            json_file_path = os.path.join(input_data_directory, json_file_name)
+                            print("path of input file:", json_file_path)
+                            with open(json_file_path, 'w', encoding='utf-8') as json_file:
+                                json.dump(json_data, json_file, ensure_ascii=False, indent=4)
+                            
+                            counter__ = counter__ +1
+        
         return urls 
     
 
 
 
     start_urls =  init___()
-    print(start_urls)
-    # [
-
-    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjowLCJ2ZXJzaW9uIjoxfQ%3D%3D',  # Replace with the URL you want to scrape
-
-    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D',
-
-
-    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjozNiwidmVyc2lvbiI6MX0%3D',
-
-    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo1NCwidmVyc2lvbiI6MX0%3D',
-
-    #     'https://www.airbnb.it/s/Blloku--Tirana--Albania/homes?adults=1&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=2024-01-08&checkout=2024-01-10&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-02-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=2&channel=EXPLORE&search_type=unknown&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0Ijo3MiwidmVyc2lvbiI6MX0%3D',
-
-
-    # ]
-
-    # def parse(self, response):
-    #     filename = 'page_content.html'
-    #     with open(filename, 'wb') as f:
-    #         f.write(response.body)
-    #         self.log(f'Saved file {filename}')
-
-
-
-    # def parse(self, response):
-    #         # Select the div with the specified classes
-    #         target_div = response.css('.g1qv1ctd.atm_u80d3j_1lqfgyr.atm_c8_o7aogt.atm_g3_8jkm7i.c1v0rf5q.atm_9s_11p5wf0.atm_cx_d64hb6.atm_dz_7esijk.atm_e0_1lo05zz.dir.dir-ltr')
-            
-    #         # Extract the entire HTML content of the div
-    #         html_content = target_div.get()
-
-    #         # You can yield the HTML content or parse it further to extract specific data
-    #         yield {
-    #             'html_content': html_content,
-    #         }
+    #print(start_urls)
+   
     
     
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36'
@@ -139,20 +122,31 @@ class FullPageSpider(scrapy.Spider):
         current_directory = os.getcwd()
         self.counter += 1
 
+         # Extract query parameters from URL
+        # parsed_url = urlparse(response.url)
+        # query_params = parse_qs(parsed_url.query)
+
+        # # Extract additional data from URL
+        # checkin = query_params.get('checkin', [None])[0]
+        # checkout = query_params.get('checkout', [None])[0]
+        # adults = query_params.get('adults', [None])[0]
+        current_date = datetime.now().strftime("%Y-%m-%d")
+
         # Extract data using CSS selectors or any other method
         data = {
             'url': response.url,
-            #'content': response.css('.g1qv1ctd.atm_u80d3j_1lqfgyr.atm_c8_o7aogt.atm_g3_8jkm7i.c1v0rf5q.atm_9s_11p5wf0.atm_cx_d64hb6.atm_dz_7esijk.atm_e0_1lo05zz.dir.dir-ltr').get(),
             'content': response.text,
+            'current_date': current_date,
+            
         }
 
         data_html = response.body
         # Define a filename based on the URL or another unique identifier
         filename = f"{self.counter}.html"
-        #filename = f"jjj.txt"
+
         # Define the directory where you want to save the file
         directory = os.path.join(current_directory, 'airbnbscrapy', 'data')
-        print(directory)
+        #print(directory)
         
         # Create directory if it doesn't exist
         if not os.path.exists(directory):
@@ -169,39 +163,5 @@ class FullPageSpider(scrapy.Spider):
 
 
 
-
-
-    # def init___():
-    #     current_directory = os.getcwd()
-    #     output_directory = os.path.join(current_directory, 'airbnbscrapy')
-
-    #     # Path to the JSON file
-    #     json_info_path = os.path.join(output_directory,'info.json')
-
-    #     # Load data from JSON
-    #     lko= read_json(json_info_path)
-    #     urls = []
-
-    #     for j in range (len(lko['location'])):
-    #         for m in range (len(lko['nights'])):
-    #             for o in range (len(lko['starting_from'])):
-    #                 for y in range (len(lko['host']['adults'])):
-
-    #                         print (lko['location'][j])
-    #                         print (lko['nights'][m])
-    #                         print (lko['starting_from'][o])
-    #                         print (lko['host']['adults'][y])
-
-    #                         current_date = datetime.now()
-    #                         print(current_date)
-
-    #                         checkin =  current_date +  timedelta(days= lko['starting_from'][o]) 
-    #                         checkout = checkin +  timedelta(days= lko['nights'][m])
-    #                         checkin_f = checkin.strftime("%Y-%m-%d")
-    #                         checkout_f = checkout.strftime("%Y-%m-%d")
-    #                         url_ = 'https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D'
-    #                         urls.append(url_)
-    #                         print('https://www.airbnb.it/s/' + str(lko['location'][j]) +  '/homes?adults=' + str(lko['host']['adults'][y]) +  '&place_id=ChIJoSl7wgIxUBMR7oW2ikd2PAg&refinement_paths%5B%5D=%2Fhomes&checkin=' + str(checkin_f) + '&checkout=' + str(checkout_f) + '&tab_id=home_tab&query=Blloku%2C%20Tirana%2C%20Albania&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=' + str(checkin_f) + '&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=' + str(lko['nights'][m]) + '&channel=EXPLORE&federated_search_session_id=1ec00596-b0c3-4488-9388-3e31e419f561&search_type=unknown&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MywiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D')
-    #     return urls 
 
 print("ciccio1")

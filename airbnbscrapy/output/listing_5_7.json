@@ -1,17 +1,17 @@
 {
-    "ID": "50149430",
-    "Name": "Lemon House Tirana",
+    "ID": "1063802366327346017",
+    "Name": "Accogliente appartamento situato nel centro di Tirana",
     "City": "Tirana",
-    "latitude": 41.32572,
-    "longitude": 19.81288,
+    "latitude": 41.3239295187462,
+    "longitude": 19.807324334979057,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,88 (210)",
+    "Room_Rating": "Nuovo",
     "Price_per_night": {
         "__typename": "QualifiedDisplayPriceLine",
         "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "37Â â¬ a notte",
-        "price": "37Â â¬",
+        "accessibilityLabel": "27Â â¬ a notte",
+        "price": "27Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -20,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "73Â â¬ in totale",
-        "price": "73Â â¬ in totale",
+        "accessibilityLabel": "27Â â¬ in totale",
+        "price": "27Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -29,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1189918145",
+            "id": "1815428646",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/d3115e08-62e0-4788-b841-8c351ea8a552.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/2f06bbef-6491-4dc3-86e6-433ba2e3a4eb.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -45,16 +45,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto",
+                    "2 letti",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1189933725",
+            "id": "1815428657",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/9929e860-8810-4ab9-8350-a4fb90437f42.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/8d539093-ffd6-44a6-994b-f5633ba083c7.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -72,10 +72,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1189918085",
+            "id": "1815428668",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/bbd2b09a-8824-48d5-8ac0-beda97d22565.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/c541deaa-1ee2-46d5-a706-a0dd074511a0.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -88,15 +88,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "1 letto matrimoniale grande"
+                    "1 letto a 2 piazze",
+                    "1 divano letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1189918156",
+            "id": "1815428672",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/3d9bf55e-1553-46b8-8ad6-410dd7bbdb61.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/2f4d4346-0276-4f62-8c93-93a46e0d846d.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -110,16 +111,15 @@
                 "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
-                    "Self check-in",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1189935162",
+            "id": "1815428681",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/98621621-f96e-448c-bd45-d40749477f1d.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/de41d7ac-b473-430e-850d-4a80d9866f37.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -127,20 +127,12 @@
         },
         {
             "__typename": "ExplorePicture",
-            "caption": {
-                "__typename": "ExploreKickerContent",
-                "formattedMessages": null,
-                "kickerBadge": null,
-                "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
-                ],
-                "textColor": null
-            },
+            "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1189918157",
+            "id": "1815428685",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/64491ec3-53b8-4275-959a-3942ebe0cbcb.jpg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1063802366327346017/original/176cb948-97b7-4854-90f4-c9994ed62f6c.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,

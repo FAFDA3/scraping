@@ -1,18 +1,17 @@
 {
-    "ID": "841943110737835520",
-    "Name": "Splendida posizione PRIVILEGIATA a Tirana",
+    "ID": "998597732133988197",
+    "Name": "Sheshi Willson Great Studio 3",
     "City": "Tirana",
-    "latitude": 41.32459188833,
-    "longitude": 19.82513831547845,
+    "latitude": 41.31862740451805,
+    "longitude": 19.81537632644176,
     "PDP_URL_Type": "ROOMS",
     "Room_Type-Category": "entire_home",
-    "Room_Rating": "4,94 (17)",
+    "Room_Rating": null,
     "Price_per_night": {
-        "__typename": "DiscountedDisplayPriceLine",
-        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "34Â â¬ a notte, originariamente 41Â â¬",
-        "discountedPrice": "34Â â¬",
-        "originalPrice": "41Â â¬",
+        "__typename": "QualifiedDisplayPriceLine",
+        "displayComponentType": "QUALIFIED_DISPLAY_PRICE_LINE",
+        "accessibilityLabel": "33Â â¬ a notte",
+        "price": "33Â â¬",
         "qualifier": "notte",
         "shortQualifier": "notte",
         "concatQualifierLeft": false,
@@ -21,8 +20,8 @@
     "total_price": {
         "__typename": "BasicDisplayPriceLine",
         "displayComponentType": "BASIC_DISPLAY_PRICE_LINE",
-        "accessibilityLabel": "68Â â¬ in totale",
-        "price": "68Â â¬ in totale",
+        "accessibilityLabel": "33Â â¬ in totale",
+        "price": "33Â â¬ in totale",
         "trailingContent": null
     },
     "listofpicture": [
@@ -30,10 +29,10 @@
             "__typename": "ExplorePicture",
             "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1604658282",
+            "id": "1755961654",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/aad1d415-621f-456a-80f6-83f589c952fb.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/7899b4a9-c101-4218-a888-7a1597566e61.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -46,16 +45,16 @@
                 "formattedMessages": null,
                 "kickerBadge": null,
                 "messages": [
-                    "2 letti",
+                    "1 letto",
                     "1 camera da letto"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1618591251",
+            "id": "1755961626",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/aea36eef-9c66-41d7-bdc6-882943296b79.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/c11e8450-abcc-4d7b-9338-8a8d535974af.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -73,32 +72,10 @@
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1604658249",
+            "id": "1755961632",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/5873f3e8-b48f-456c-965b-4596035cae61.jpeg?im_w=720",
-            "previewEncodedPng": null,
-            "saturatedA11yDarkColor": null,
-            "scrimColor": null,
-            "xlPicture": null
-        },
-        {
-            "__typename": "ExplorePicture",
-            "caption": {
-                "__typename": "ExploreKickerContent",
-                "formattedMessages": null,
-                "kickerBadge": null,
-                "messages": [
-                    "1 letto a 2 piazze",
-                    "1 divano letto"
-                ],
-                "textColor": null
-            },
-            "dominantSaturatedColor": null,
-            "id": "1603728264",
-            "largeRo": null,
-            "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/3fbb10af-9997-442a-9eac-5acf13d112c9.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/29341583-7a39-45e4-86e5-ca83276e8111.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -112,16 +89,15 @@
                 "kickerBadge": null,
                 "messages": [
                     "Wi-fi",
-                    "Self check-in",
                     "Lavatrice"
                 ],
                 "textColor": null
             },
             "dominantSaturatedColor": null,
-            "id": "1603728039",
+            "id": "1755961634",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/0db9c996-bb25-4df5-aaa4-513916808c7c.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/e5bc6e6e-5595-4c16-9fd6-e8ef5ba70752.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
@@ -129,20 +105,25 @@
         },
         {
             "__typename": "ExplorePicture",
-            "caption": {
-                "__typename": "ExploreKickerContent",
-                "formattedMessages": null,
-                "kickerBadge": null,
-                "messages": [
-                    "Valutato 4,9 stelle su 5 per la pulizia"
-                ],
-                "textColor": null
-            },
+            "caption": null,
             "dominantSaturatedColor": null,
-            "id": "1604658262",
+            "id": "1755961637",
             "largeRo": null,
             "originalPicture": null,
-            "picture": "https://a0.muscache.com/im/pictures/miso/Hosting-841943110737835520/original/a937665f-83a4-428f-9e63-3fdd38b05049.jpeg?im_w=720",
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/3ac31709-7c23-42d0-bef8-88565be4da5b.jpeg?im_w=720",
+            "previewEncodedPng": null,
+            "saturatedA11yDarkColor": null,
+            "scrimColor": null,
+            "xlPicture": null
+        },
+        {
+            "__typename": "ExplorePicture",
+            "caption": null,
+            "dominantSaturatedColor": null,
+            "id": "1755961639",
+            "largeRo": null,
+            "originalPicture": null,
+            "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-998597732133988197/original/712900e0-434d-4329-b92b-1b91c316ddf2.jpeg?im_w=720",
             "previewEncodedPng": null,
             "saturatedA11yDarkColor": null,
             "scrimColor": null,
