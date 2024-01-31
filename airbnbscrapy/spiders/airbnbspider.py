@@ -106,6 +106,8 @@ class FullPageSpider(scrapy.Spider):
 
 
 
+
+
     start_urls =  init___()
     #print(start_urls)
    

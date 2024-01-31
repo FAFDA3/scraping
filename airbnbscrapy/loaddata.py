@@ -14,51 +14,51 @@ def read_json(file_path):
 
 
 
-def connect_insert2(data): #code to add to mysql the data form the json (data is the json)
-    try:
-        connection = mysql.connector.connect(host='musttest.it',
-                                             database='gxwcdfol_dfvz',
-                                             user='gxwcdfol_antonov4568',
-                                             password='antonov4568')
-        if connection.is_connected():
-            cursor = connection.cursor()
+# def connect_insert2(data): #code to add to mysql the data form the json (data is the json)
+#     try:
+#         connection = mysql.connector.connect(host='musttest.it',
+#                                              database='gxwcdfol_dfvz',
+#                                              user='gxwcdfol_antonov4568',
+#                                              password='antonov4568')
+#         if connection.is_connected():
+#             cursor = connection.cursor()
 
-            # SQL INSERT statement
-            query = "INSERT INTO listings (ID, Name, City, latitude, longitude, PDP_URL_Type, Room_Type_Category, Room_Rating, Price_per_night, total_price) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+#             # SQL INSERT statement
+#             query = "INSERT INTO listings (ID, Name, City, latitude, longitude, PDP_URL_Type, Room_Type_Category, Room_Rating, Price_per_night, total_price) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
 
 
-            # Extract values and execute query
+#             # Extract values and execute query
             
-            ID = data['ID']
-            Name = data['Name']
-            City = data['City'] 
-            latitude =  data['latitude'] 
-            longitude = data['longitude']
-            PDP_URL_Type = data['PDP_URL_Type']
-            Room_Type_Categorydata = data['Room_Type-Category']
-            Room_Ratingdata = data['Room_Rating']
-            Price_per_nightdata = data['Price_per_night']['price'] if 'price' in data['Price_per_night'] else (data['Price_per_night']['discountedPrice'] if 'discountedPrice' in data['Price_per_night'] else 0)
-            total_price = data['total_price']['price']
+#             ID = data['ID']
+#             Name = data['Name']
+#             City = data['City'] 
+#             latitude =  data['latitude'] 
+#             longitude = data['longitude']
+#             PDP_URL_Type = data['PDP_URL_Type']
+#             Room_Type_Categorydata = data['Room_Type-Category']
+#             Room_Ratingdata = data['Room_Rating']
+#             Price_per_nightdata = data['Price_per_night']['price'] if 'price' in data['Price_per_night'] else (data['Price_per_night']['discountedPrice'] if 'discountedPrice' in data['Price_per_night'] else 0)
+#             total_price = data['total_price']['price']
             
-            #values = (data['ID'], data['Name'], data['City'], data['latitude'], data['longitude'], data['PDP_URL_Type'], data['Room_Type-Category'], data['Room_Rating'], data['Price_per_night'], data['total_price'])
-            # values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
-            values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
+#             #values = (data['ID'], data['Name'], data['City'], data['latitude'], data['longitude'], data['PDP_URL_Type'], data['Room_Type-Category'], data['Room_Rating'], data['Price_per_night'], data['total_price'])
+#             # values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
+#             values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
 
-            #values = (505055050,"home1", 'Tirana', '115662', '11570', 'www.test.com','luxury', '4.5', '35', '70')
+#             #values = (505055050,"home1", 'Tirana', '115662', '11570', 'www.test.com','luxury', '4.5', '35', '70')
 
-            cursor.execute(query, values)
+#             cursor.execute(query, values)
 
 
-            connection.commit()
+#             connection.commit()
 
-    except Error as e:
-        print("Error while connecting to MySQL", e)
-    finally:
-        if connection.is_connected():
-            cursor.close()
-            connection.close()
-            print("MySQL connection is closed")
+#     except Error as e:
+#         print("Error while connecting to MySQL", e)
+#     finally:
+#         if connection.is_connected():
+#             cursor.close()
+#             connection.close()
+#             print("MySQL connection is closed")
 
 
 
@@ -104,7 +104,7 @@ def connect_insert(data_input, data_output ): #code to add to mysql the data for
             # values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
             #values = ( ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price)
             values = (  current_data, checkin, checkout, adults, url_temp, ID, Name , City , latitude, longitude, PDP_URL_Type , Room_Type_Categorydata, Room_Ratingdata, Price_per_nightdata, total_price , url_temp)
-            print("Number of elements in values tuple:", len(values))
+            #print("Number of elements in values tuple:", len(values))
 
             #values = (505055050,"home1", 'Tirana', '115662', '11570', 'www.test.com','luxury', '4.5', '35', '70')
 
