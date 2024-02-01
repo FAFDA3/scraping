@@ -1,6 +1,9 @@
 import json
 import os
 
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+from spiders.airbnbspider import FullPageSpider  # Adjust the import path based on your project structure
 
     
 
@@ -69,7 +72,7 @@ def parse_listing_data(json_string_):
     listing = data['listing']
     listing_id = listing ["id"]
     listing_name = listing ["name"]
-    listing_city = listing['localizedCityName']
+    listing_city = "Tirana"
     latitude = listing['coordinate']['latitude']
     longitude = listing['coordinate']['longitude']
     pdpUrlType = listing ["pdpUrlType"]
@@ -135,6 +138,15 @@ def save_json_to_file(data, file_path):
 
 def main():
     #1 run the scraper scrapy crawl fullpage
+    process = CrawlerProcess(settings={
+        'BOT_NAME' : 'fullpage',
+        'SPIDER_MODULES' : ['spiders'],
+        'NEWSPIDER_MODULE' : 'spiders',
+        'ROBOTSTXT_OBEY' : False
+    })
+
+    process.crawl(FullPageSpider)
+    process.start()
     #2 orderdata
     #3 loaddata
     current_directory = os.getcwd()

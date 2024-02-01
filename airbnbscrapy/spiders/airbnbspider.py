@@ -38,6 +38,36 @@ class FullPageSpider(scrapy.Spider):
     name = 'fullpage'
     counter = 0
 
+    
+    def read_json(file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+        
+
+
+    def parse_data_(json_string_):
+
+        # Remove the leading and trailing single quotes
+        # Trim or clean your JSON string if necessary
+        # For example, if your string has leading and trailing single quotes, you can remove them:
+        if json_string_.startswith("'") and json_string_.endswith("'"):
+            json_string_ = json_string_[1:-1]
+
+        # Replace any problematic encoding in your string
+        # Example: Replace escaped unicode characters
+        json_string_ = json_string_.encode().decode('unicode_escape')
+
+        # Now, try to load it as a JSON object
+        try:
+            data = json.loads(json_string_)
+            print("JSON loaded successfully")
+
+            return json_string_ , data
+        except json.JSONDecodeError as e:
+            print("Error decoding JSON:", e)
+
+
+
     def init___():
         current_directory = os.getcwd()
         output_directory = os.path.join(current_directory,"airbnbscrapy")
@@ -45,7 +75,7 @@ class FullPageSpider(scrapy.Spider):
 
 
         # Path to the JSON file
-        json_info_path = os.path.join(output_directory,'info.json')
+        json_info_path = os.path.join(current_directory,'info.json')
 
         # Load data from JSON
         lko= read_json(json_info_path)
